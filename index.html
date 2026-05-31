@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakeven Cost Analyzer — Glassmorphism Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="app-container">
+        <header class="app-header">
+            <div class="logo-row">
+                <span class="logo-emoji">📊</span>
+                <div class="title-col">
+                    <h1>Breakeven Cost Analyzer</h1>
+                    <p class="tagline">Calculate margins separating variable costs from sales volume metrics.</p>
+                </div>
+            </div>
+            <div class="badge">business</div>
+        </header>
+
+        <main class="workspace-card">
+            
+            <input type="number" id="be-fixed" value="20000" placeholder="Fixed Costs ($)" style="width:100%; margin-bottom:8px;">
+            <input type="number" id="be-price" value="50" placeholder="Sale Price per Unit ($)" style="width:100%; margin-bottom:8px;">
+            <input type="number" id="be-var" value="20" placeholder="Variable Cost per Unit ($)" style="width:100%; margin-bottom:12px;">
+            <button class="btn" onclick="calcBE()">Calculate Breakeven Units</button>
+            <div id="be-res" style="margin-top:16px; font-size:18px; color:var(--accent);"></div>
+        
+        </main>
+        
+        <footer class="app-footer">
+            <p>Created as a premium portfolio piece by <a href="https://github.com/VARSHAN69" target="_blank">@VARSHAN69</a></p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
