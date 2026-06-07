@@ -38,7 +38,7 @@ version: 1.0
 type: Repository
 author: VarshuAi
 description: >
-  Calculate margins separating variable costs from sales volume metrics.
+  name: breakeven-analyzer version: 1.0 type: Repository author: VarshuAi description: >   Calculate margins separating variable costs from sales volume metrics. primary_tech: CSS
 primary_tech: CSS
 ```
 
